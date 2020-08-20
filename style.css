@@ -1,0 +1,77 @@
+/* base information */
+
+:root {
+    --color-background: #e5f4f9;
+    --color-red: red;
+    --color-blue: blue;
+    --color-green: green;
+}
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--color-background);
+}
+
+/* Typography */
+
+h1, h2, h3 {
+    font-family: 'Courgette', cursive;
+}
+
+.country__text-emphasis--red {
+    color: var(--color-red);
+}
+
+.country__text-emphasis--red-bold {
+    font-weight: bold;
+    color: var(--color-red);
+}
+
+.country__text-emphasis--blue {
+    color: var(--color-blue);
+}
+
+.country__text-emphasis--bold {
+    font-weight: bold;
+}
+
+/* layout */
+
+.country__picture {
+    height: 300px;
+}
+
+
+.country__list--roman {
+    list-style: upper-roman;
+}
+
+.country__list--circle {
+    list-style: circle;
+}
+
+/* components */
+
+.country__quote {
+    font-family: 'Courier New', Courier, monospace;
+    width: 400px;
+}
+
+.country_quote-footer {
+    margin: 20px;
+}
+
+.country__link:link,
+.country__link:visited {
+    text-decoration: none;
+    color: var(--color-red);
+    font-weight: bold;
+}
+
+.country__link:hover,
+.country__link:active {
+    color: var(--color-background);
+    background-color: var(--color-green);
+    transition: all 1s;
+}
